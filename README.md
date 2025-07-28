@@ -2,7 +2,7 @@
 
 ```py
 from shl import sh
-await sh("uv add shl")
+await sh(t"uv add shl")
 ```
 
 Run safe and cross-platform bash commands using Python 3.14's t-strings
@@ -66,7 +66,7 @@ child programs, use substitutions to pass user input.
 input can be string or bytes.
 
 ```py
-assert await sh("wc -l", input="1\n2\n3\n").json() == 3
+assert await sh(t"wc -l", input="1\n2\n3\n").json() == 3
 ```
 
 ### Capture the stdout, stderr of a program
@@ -83,17 +83,17 @@ result.stderr
 Use `.text()` to directly get the output as string (utf-8 encoded).
 
 ```py
-contents = await sh("cat file.txt").text()
+contents = await sh(t"cat file.txt").text()
 ```
 
 ### Get standard output directly as bytes
 
 ```py
-contents = await sh("cat file.bin").bytes()
+contents = await sh(t"cat file.bin").bytes()
 ```
 
 ### Get standard output parsed as JSON
 
 ```py
-data = await sh("cat file.json").json()
+data = await sh(t"cat file.json").json()
 ```

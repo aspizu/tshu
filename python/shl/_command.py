@@ -31,7 +31,7 @@ class Command[T = int]:
     as `.output()` to modify the return value.
 
     Examples:
-        >>> returncode = await sh("echo hello world")
+        >>> returncode = await sh(t"echo hello world")
         hello world
         >>> returncode
         0
@@ -70,7 +70,7 @@ class Command[T = int]:
         r"""Capture stdout and stderr as bytes.
 
         Examples:
-            >>> await sh("echo hello").output()
+            >>> await sh(t"echo hello").output()
             CompletedCommand(returncode=0, stdout=b'hello\n', stderr=b'')
 
         """
@@ -81,7 +81,7 @@ class Command[T = int]:
         """Stdout returns as string.
 
         Examples:
-            >>> await sh("echo hello").text()
+            >>> await sh(t"echo hello").text()
             hello
 
         """
@@ -92,7 +92,7 @@ class Command[T = int]:
         r"""Stdout returns as bytes.
 
         Examples:
-            >>> await sh("echo hello").bytes()
+            >>> await sh(t"echo hello").bytes()
             b'hello\n'
 
         """
