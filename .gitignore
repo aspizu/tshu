@@ -1,0 +1,5 @@
+.venv/
+target/
+*.pyd
+playground.py
+__pycache__/

@@ -1,0 +1,26 @@
+[project]
+name = "shl"
+version = "0.1.0"
+requires-python = ">=3.14b4"
+dependencies = ["cffi>=1.17.1"]
+
+[build-system]
+requires = ["maturin>=1.9,<2.0"]
+build-backend = "maturin"
+
+[tool.maturin]
+python-source = "python"
+features = ["pyo3/extension-module"]
+
+[tool.basedpyright]
+reportAny = false
+reportExplicitAny = false
+reportUnusedCallResult = false
+
+[tool.ruff.lint]
+select = ["ALL"]
+extend-safe-fixes = ["ALL"]
+ignore = ["COM", "A002", "PTH109", "PLR0913", "E501", "A004"]
+
+[tool.ruff.lint.isort]
+required-imports = ["from __future__ import annotations"]
