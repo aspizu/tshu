@@ -24,3 +24,9 @@ ignore = ["COM", "A002", "PTH109", "PLR0913", "E501", "A004"]
 
 [tool.ruff.lint.isort]
 required-imports = ["from __future__ import annotations"]
+
+[dependency-groups]
+dev = [
+    "mkdocs-material>=9.6.16",
+    "mkdocstrings[python]>=0.30.0",
+]
