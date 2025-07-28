@@ -1,5 +1,8 @@
 # shl
 
+> [!WARNING]
+> Work in progress, the API might change.
+
 ```py
 from shl import sh
 await sh(t"uv add shl")
