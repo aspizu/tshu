@@ -1,1 +1,24 @@
-site_name: My Docs
+nav:
+    - Usage: usage.md
+    - Reference:
+          - Command: reference/command.md
+          - CompletedCommand: reference/completed-command.md
+          - CommandError: reference/command-error.md
+
+site_name: shl
+site_url: https://aspizu.github.io/shl
+theme:
+    name: material
+plugins:
+    - mkdocstrings:
+          handlers:
+              python:
+                  options:
+                      show_source: false
+                      show_symbol_type_heading: true
+                      merge_init_into_class: true
+                      parameter_headings: true
+                      show_signature_annotations: true
+markdown_extensions:
+    - pymdownx.highlight:
+          default_lang: python

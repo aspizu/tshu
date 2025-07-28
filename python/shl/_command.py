@@ -25,7 +25,18 @@ class _Enc(IntEnum):
 
 
 class Command[T = int]:
-    """Awaitable shell command object."""
+    """Awaitable shell command.
+
+    By default, awaiting a command returns the exit-code. Use one of the methods such
+    as `.output()` to modify the return value.
+
+    Examples:
+        >>> returncode = await sh("echo hello world")
+        hello world
+        >>> returncode
+        0
+
+    """
 
     quiet: bool = False
     "Suppress stdout and stderr from displayed in the terminal."
@@ -56,22 +67,46 @@ class Command[T = int]:
         self._enc: _Enc = _Enc.RETURNCODE
 
     def output(self) -> Command[CompletedCommand]:
-        """Capture stdout and stderr as bytes."""
+        r"""Capture stdout and stderr as bytes.
+
+        Examples:
+            >>> await sh("echo hello").output()
+            CompletedCommand(returncode=0, stdout=b'hello\n', stderr=b'')
+
+        """
         self._enc = _Enc.OUTPUT
         return cast("Any", self)
 
     def text(self) -> Command[str]:
-        """Stdout returns as string."""
+        """Stdout returns as string.
+
+        Examples:
+            >>> await sh("echo hello").text()
+            hello
+
+        """
         self._enc = _Enc.TEXT
         return cast("Any", self)
 
     def bytes(self) -> Command[str]:
-        """Stdout returns as bytes."""
+        r"""Stdout returns as bytes.
+
+        Examples:
+            >>> await sh("echo hello").bytes()
+            b'hello\n'
+
+        """
         self._enc = _Enc.BYTES
         return cast("Any", self)
 
     def json(self) -> Command[Any]:
-        """Stdout returns as JSON."""
+        """Stdout returns as JSON.
+
+        Examples:
+            >>> await sh(t"echo {json.dumps({"hello": "world"})}").json()
+            {'hello': 'world'}
+
+        """
         self._enc = _Enc.JSON
         return cast("Any", self)
 
