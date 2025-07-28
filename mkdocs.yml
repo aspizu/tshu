@@ -4,12 +4,33 @@ nav:
           - Command: reference/command.md
           - CompletedCommand: reference/completed-command.md
           - CommandError: reference/command-error.md
-
 site_name: shl
+repo_url: https://github.com/aspizu/shl
+repo_name: shl
+site_author: Priyanshu Dangare
 site_url: https://aspizu.github.io/shl
 theme:
     name: material
+    features:
+        - navigation.instant
+        - navigation.instant.prefetch
+        - navigation.instant.progress
+        - navigation.instant.preview
+        - navigation.tracking
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.expand
+        - content.code.annotate
+        - toc.follow
+        - navigation.path
+        - navigation.top
+        - content.code.copy
+        - content.tabs.link
+    font:
+        text: Inter Tight
+        code: Cascadia Code
 plugins:
+    - search
     - mkdocstrings:
           handlers:
               python:
@@ -22,3 +43,9 @@ plugins:
 markdown_extensions:
     - pymdownx.highlight:
           default_lang: python
+extra:
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/aspizu
+        - icon: fontawesome/brands/discord
+          link: https://discord.gg/MMfMkRuhAf
