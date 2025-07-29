@@ -39,13 +39,13 @@ class Command[T = int]:
     """
 
     quiet: bool = False
-    "Suppress stdout and stderr from displayed in the terminal."
+    "Suppress stdout and stderr from displayed in the terminal. Globally affects all command invocations."
 
     check: bool = True
-    "Raise exception when command return code is non-zero."
+    "Raise exception when command return code is non-zero. Globally affects all command invocations."
 
     cwd: str | Path | None = None
-    "Shell's working directory. (Defaults to current working directory)"
+    "Shell's working directory. (Defaults to current working directory) Globally affects all command invocations."
 
     def __init__(
         self,
@@ -57,6 +57,17 @@ class Command[T = int]:
         cwd: str | Path | None = None,
         env: dict[str, str] | None = None,
     ) -> None:
+        """Construct a command.
+
+        Args:
+            command: t-string template for command.
+            quiet: Suppress stdout and stderr from displayed in the terminal.
+            check: Raise exception when command return code is non-zero.
+            input: Pass standard input to command.
+            cwd: Shell's working directory.
+            env: Dictionary of environment variables.
+
+        """
         self._template: Template = command
         self._quiet: bool = self.quiet if quiet is None else quiet
         self._check: bool = self.check if check is None else check

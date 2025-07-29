@@ -1,5 +1,5 @@
 nav:
-    - Usage: usage.md
+    - README: index.md
     - Reference:
           - Command: reference/command.md
           - CompletedCommand: reference/completed-command.md
@@ -41,6 +41,7 @@ plugins:
                       parameter_headings: true
                       show_signature_annotations: true
 markdown_extensions:
+    - admonition
     - pymdownx.highlight:
           default_lang: python
 extra:
