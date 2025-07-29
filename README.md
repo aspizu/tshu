@@ -75,7 +75,7 @@ assert await sh(t"wc -l", input="1\n2\n3\n").json() == 3
 ### Capture the stdout, stderr of a program
 
 ```py
-result = await sh("help").output()
+result = await sh(t"help").output()
 result.returncode
 result.stdout
 result.stderr
