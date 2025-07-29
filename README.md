@@ -1,16 +1,23 @@
-# <center>![](./docs/assets/tshu-logo.svg)</center>
+# ![](./docs/assets/tshu-logo.svg)
 
 > [!WARNING]
-> Work in progress, the API might change.
+> WIP. Until v1.0.0 is released, API is subject to drastic changes.
+
+[![image](https://img.shields.io/pypi/v/tshu.svg)](https://pypi.python.org/pypi/tshu)
+[![image](https://img.shields.io/pypi/l/tshu.svg)](https://github.com/aspizu/tshu/blob/main/LICENSE)
+[![image](https://img.shields.io/pypi/pyversions/tshu.svg)](https://pypi.python.org/pypi/tshu)
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.gg/MMfMkRuhAf)
+
+[**Documentation**](https://aspizu.github.io/tshu/)
+
+Run safe and cross-platform bash commands using Python 3.14's t-strings
+
+Uses [brush](https://github.com/reubeno/brush) for a cross-platform bash implementation.
 
 ```py
 from tshu import sh
 await sh(t"uv add tshu")
 ```
-
-Run safe and cross-platform bash commands using Python 3.14's t-strings
-
-Uses [brush](https://github.com/reubeno/brush) for a cross-platform bash implementation.
 
 ## Installation
 
