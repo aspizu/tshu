@@ -11,6 +11,8 @@ site_author: Priyanshu Dangare
 site_url: https://aspizu.github.io/tshu
 theme:
     name: material
+    logo: assets/tshu-logo.svg
+    favicon: assets/tshu-logo.svg
     features:
         - navigation.instant
         - navigation.instant.prefetch
@@ -29,6 +31,28 @@ theme:
     font:
         text: Inter Tight
         code: Cascadia Code
+    palette:
+        # Palette toggle for automatic mode
+        - media: "(prefers-color-scheme)"
+          toggle:
+              icon: material/brightness-auto
+              name: Switch to light mode
+
+        # Palette toggle for light mode
+        - media: "(prefers-color-scheme: light)"
+          scheme: white
+          primary: white
+          toggle:
+              icon: material/brightness-7
+              name: Switch to dark mode
+
+        # Palette toggle for dark mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          primary: black
+          toggle:
+              icon: material/brightness-4
+              name: Switch to system preference
 plugins:
     - search
     - mkdocstrings:
