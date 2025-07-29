@@ -1,8 +1,18 @@
 [project]
 name = "tshu"
-version = "0.1.0"
+dynamic = ["version"]
+authors = [{name = "Priyanshu Dangare", email = "aspizu@protonmail.com"}]
+description = "Run safe and cross-platform bash commands using Python 3.14's t-strings"
+readme = "README.md"
 requires-python = ">=3.14b4"
 dependencies = ["cffi>=1.17.1"]
+keywords = ["t-strings", "bash", "shell", "sh"]
+
+[project.urls]
+Homepage = "https://github.com/aspizu/tshu"
+Documentation = "https://aspizu.github.io/tshu/"
+Repository = "https://github.com/aspizu/tshu"
+Issues = "https://github.com/aspizu/tshu/issues"
 
 [build-system]
 requires = ["maturin>=1.9,<2.0"]

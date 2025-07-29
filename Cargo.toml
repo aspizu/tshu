@@ -1,6 +1,7 @@
 [package]
 name = "tshu"
-version = "0.1.0"
+description = "Run safe and cross-platform bash commands using Python 3.14's t-strings"
+version = "0.1.1"
 edition = "2024"
 
 [lib]
