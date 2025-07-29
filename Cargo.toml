@@ -1,10 +1,10 @@
 [package]
-name = "shl"
+name = "tshu"
 version = "0.1.0"
 edition = "2024"
 
 [lib]
-name = "shl"
+name = "tshu"
 crate-type = ["cdylib"]
 
 [dependencies]

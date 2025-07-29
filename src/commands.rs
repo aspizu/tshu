@@ -99,8 +99,8 @@ fn encode_output(
     mut stdout: File,
     mut stderr: File,
 ) -> Result<Py<PyAny>, PyErr> {
-    let shl = py.import("shl")?;
-    let completed_command_t = shl.getattr("CompletedCommand")?;
+    let tshu = py.import("tshu")?;
+    let completed_command_t = tshu.getattr("CompletedCommand")?;
     stdout.seek(io::SeekFrom::Start(0))?;
     stderr.seek(io::SeekFrom::Start(0))?;
     let mut bstdout = vec![];

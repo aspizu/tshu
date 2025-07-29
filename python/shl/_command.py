@@ -3,7 +3,7 @@ from __future__ import annotations
 from enum import IntEnum
 from typing import TYPE_CHECKING, cast
 
-from .shl import *  # noqa: F403
+from .tshu import *  # noqa: F403
 
 if TYPE_CHECKING:
     from collections.abc import Generator

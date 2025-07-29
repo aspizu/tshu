@@ -1,11 +1,11 @@
-# shl
+# tshu
 
 !!! WARNING
     Work in progress, the API might change.
 
 ```python
-from shl import sh
-await sh(t"uv add shl")
+from tshu import sh
+await sh(t"uv add tshu")
 ```
 
 Run safe and cross-platform bash commands using Python 3.14's t-strings
@@ -15,13 +15,13 @@ Uses [brush](https://github.com/reubeno/brush) for a cross-platform bash impleme
 ## Installation
 
 ```shell
-uv add shl
+uv add tshu
 ```
 
 ## Usage
 
 ```py
-from shl import sh
+from tshu import sh
 ```
 
 ### Run a bash command.
@@ -47,7 +47,7 @@ await sh(t'cat "{__file__}" | wc -l')
 
 ### Exit code and check
 
-By default, awaiting a command returns the exit code. [shl.CommandError][] is raised
+By default, awaiting a command returns the exit code. [tshu.CommandError][] is raised
 when a command returns a non-zero exit code. To disable this behaviour, either
 pass `check=False` to `sh` or set `sh.check = False` to disable checking globally.
 
