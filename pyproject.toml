@@ -7,6 +7,7 @@ readme = "README.md"
 requires-python = ">=3.14b4"
 dependencies = ["cffi>=1.17.1"]
 keywords = ["t-strings", "bash", "shell", "sh"]
+license = "MIT"
 
 [project.urls]
 Homepage = "https://github.com/aspizu/tshu"
