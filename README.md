@@ -1,5 +1,7 @@
 # ![](./docs/assets/tshu-logo.svg)
 
+> **★ Star the repo to support the project!**
+
 > [!WARNING]
 > WIP. Until v1.0.0 is released, API is subject to drastic changes.
 
