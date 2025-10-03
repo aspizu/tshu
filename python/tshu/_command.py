@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from enum import IntEnum
+from string.templatelib import Template
 from typing import TYPE_CHECKING, cast
 
 from .tshu import *  # noqa: F403
@@ -8,7 +9,6 @@ from .tshu import *  # noqa: F403
 if TYPE_CHECKING:
     from collections.abc import Generator
     from pathlib import Path
-    from string.templatelib import Template
     from typing import Any
 
     from ._completed_command import CompletedCommand
@@ -68,6 +68,12 @@ class Command[T = int]:
             env: Dictionary of environment variables.
 
         """
+        if not isinstance(command, Template):  # pyright: ignore[reportUnnecessaryIsInstance]
+            if isinstance(command, str):  # pyright: ignore[reportUnreachable]
+                msg = "Passing `str` to sh() is not allowed, accidentally used f-string instead of t-strings?"  # pyright: ignore[reportUnreachable]
+            else:
+                msg = "First argument to sh() must be a template string like `t\"echo 'Hello, World!'\"`"  # pyright: ignore[reportUnreachable]
+            raise TypeError(msg)
         self._template: Template = command
         self._quiet: bool = self.quiet if quiet is None else quiet
         self._check: bool = self.check if check is None else check

@@ -3,3 +3,4 @@ target/
 *.pyd
 playground.py
 __pycache__/
+*.cpython-*.so
