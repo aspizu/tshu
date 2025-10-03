@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="96"
+   height="32"
+   viewBox="0 0 96 32.000001"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="tshu-logo.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="38.625708"
+     inkscape:cy="26.781669"
+     inkscape:window-width="1440"
+     inkscape:window-height="756"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="rect6"
+       style="opacity:1;fill:#ffd9a6;fill-opacity:1">
+      <path
+         style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#ffd9a6;stroke-linecap:round;stroke-linejoin:bevel;paint-order:fill markers stroke;enable-background:accumulate;stop-color:#000000;stop-opacity:1;fill-opacity:1"
+         d="M 4.4256477,1.5160593 H 91.574352 V 30.483941 H 4.4256477 Z"
+         id="path8" />
+      <path
+         style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#ffd9a6;stroke-linecap:round;stroke-linejoin:bevel;paint-order:fill markers stroke;enable-background:accumulate;stop-color:#000000;stop-opacity:1;fill-opacity:1"
+         d="M 4.4257812,0.515625 L 3.4257813,1.515625 V 30.484375 L 4.4257812,31.484375 H 91.574219 L 92.574219,30.484375 V 1.515625 L 91.574219,0.515625 Z M 5.4257812,2.515625 H 90.574219 V 29.484375 H 5.4257812 Z"
+         id="path9" />
+    </g>
+    <g
+       id="text1"
+       style="opacity:1;fill:#1d78ad;fill-opacity:1;stroke-width:1.70861"
+       transform="matrix(0.58566826,0,0,0.58487155,-13.495167,-70.853426)">
+      <path
+         style="font-size:45.1556px;line-height:1;font-family:'I pixel u';-inkscape-font-specification:'I pixel u';letter-spacing:-0.28575px;baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#1d78ad;fill-opacity:1;stroke-width:1.70861;stroke-linecap:round;stroke-linejoin:bevel;paint-order:fill markers stroke;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="M 46.161899,162.61113 V 140.03333 H 40.517448 V 134.38888 H 68.739699 V 140.03333 H 63.095249 V 162.61113 Z M 74.098396,162.61113 V 156.96668 H 91.031747 V 151.32223 H 74.098396 V 134.38888 H 102.32065 V 140.03333 H 85.387297 V 145.67778 H 102.32065 V 162.61113 Z M 107.67934,162.61113 V 134.38888 H 118.96824 V 151.32223 H 124.61269 V 134.38888 H 135.9016 V 162.61113 H 124.61269 V 156.96668 H 118.96824 V 162.61113 Z M 141.2603,162.61113 V 134.38888 H 152.5492 V 156.96668 H 158.19365 V 134.38888 H 169.48255 V 162.61113 Z"
+         id="path6" />
+      <path
+         style="font-size:45.1556px;line-height:1;font-family:'I pixel u';-inkscape-font-specification:'I pixel u';letter-spacing:-0.28575px;baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#1d78ad;fill-opacity:1;stroke-width:1.70861;stroke-linecap:round;stroke-linejoin:bevel;paint-order:fill markers stroke;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="M 40.517578,133.88867 L 40.017578,134.38867 V 140.0332 L 40.517578,140.5332 H 45.662109 V 162.61133 L 46.162109,163.11133 H 63.095703 L 63.595703,162.61133 V 140.5332 H 68.740234 L 69.240234,140.0332 V 134.38867 L 68.740234,133.88867 Z M 74.097656,133.88867 L 73.597656,134.38867 V 151.32227 L 74.097656,151.82227 H 90.53125 V 156.4668 H 74.097656 L 73.597656,156.9668 V 162.61133 L 74.097656,163.11133 H 102.32031 L 102.82031,162.61133 V 145.67773 L 102.32031,145.17773 H 85.886719 V 140.5332 H 102.32031 L 102.82031,140.0332 V 134.38867 L 102.32031,133.88867 Z M 107.67969,133.88867 L 107.17969,134.38867 V 162.61133 L 107.67969,163.11133 H 118.96875 L 119.46875,162.61133 V 157.4668 H 124.11328 V 162.61133 L 124.61328,163.11133 H 135.90234 L 136.40234,162.61133 V 134.38867 L 135.90234,133.88867 H 124.61328 L 124.11328,134.38867 V 150.82227 H 119.46875 V 134.38867 L 118.96875,133.88867 Z M 141.25977,133.88867 L 140.75977,134.38867 V 162.61133 L 141.25977,163.11133 H 169.48242 L 169.98242,162.61133 V 134.38867 L 169.48242,133.88867 H 158.19336 L 157.69336,134.38867 V 156.4668 H 153.04883 V 134.38867 L 152.54883,133.88867 Z M 41.017578,134.88867 H 68.240234 V 139.5332 H 63.095703 L 62.595703,140.0332 V 162.11133 H 46.662109 V 140.0332 L 46.162109,139.5332 H 41.017578 Z M 74.597656,134.88867 H 101.82031 V 139.5332 H 85.386719 L 84.886719,140.0332 V 145.67773 L 85.386719,146.17773 H 101.82031 V 162.11133 H 74.597656 V 157.4668 H 91.03125 L 91.53125,156.9668 V 151.32227 L 91.03125,150.82227 H 74.597656 Z M 108.17969,134.88867 H 118.46875 V 151.32227 L 118.96875,151.82227 H 124.61328 L 125.11328,151.32227 V 134.88867 H 135.40234 V 162.11133 H 125.11328 V 156.9668 L 124.61328,156.4668 H 118.96875 L 118.46875,156.9668 V 162.11133 H 108.17969 Z M 141.75977,134.88867 H 152.04883 V 156.9668 L 152.54883,157.4668 H 158.19336 L 158.69336,156.9668 V 134.88867 H 168.98242 V 162.11133 H 141.75977 Z"
+         id="path7" />
+    </g>
+  </g>
+</svg>
