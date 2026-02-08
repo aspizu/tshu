@@ -1,5 +1,4 @@
 nav:
-    - README: index.md
     - Reference:
           - Command: reference/command.md
           - CompletedCommand: reference/completed-command.md
