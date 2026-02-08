@@ -8,7 +8,7 @@ site_name: tshu
 repo_url: https://github.com/aspizu/tshu
 repo_name: tshu
 site_author: Priyanshu Dangare
-site_url: https://aspizu.github.io/tshu
+site_url: https://aspiz.uk/tshu/docs
 theme:
     name: material
     logo: assets/tshu-logo.svg
@@ -69,6 +69,7 @@ markdown_extensions:
     - pymdownx.highlight:
           default_lang: python
 extra:
+    homepage: https://github.com/aspizu/tshu
     social:
         - icon: fontawesome/brands/github
           link: https://github.com/aspizu
