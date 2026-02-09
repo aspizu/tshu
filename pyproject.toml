@@ -1,7 +1,7 @@
 [project]
 name = "tshu"
 dynamic = ["version"]
-authors = [{name = "Priyanshu Dangare", email = "aspizu@protonmail.com"}]
+authors = [{ name = "Priyanshu Dangare", email = "aspizu@protonmail.com" }]
 description = "Run safe and cross-platform bash commands using Python 3.14's t-strings"
 readme = "README.md"
 requires-python = ">=3.14b4"
@@ -10,8 +10,8 @@ keywords = ["t-strings", "bash", "shell", "sh"]
 license = "MIT"
 
 [project.urls]
-Homepage = "https://github.com/aspizu/tshu"
-Documentation = "https://aspizu.github.io/tshu/"
+Homepage = "https://aspiz.uk/tshu"
+Documentation = "https://aspiz.uk/tshu/docs"
 Repository = "https://github.com/aspizu/tshu"
 Issues = "https://github.com/aspizu/tshu/issues"
 
@@ -37,7 +37,4 @@ ignore = ["COM", "A002", "PTH109", "PLR0913", "E501", "A004"]
 required-imports = ["from __future__ import annotations"]
 
 [dependency-groups]
-dev = [
-    "mkdocs-material>=9.6.16",
-    "mkdocstrings[python]>=0.30.0",
-]
+dev = ["mkdocs-material>=9.6.16", "mkdocstrings[python]>=0.30.0"]
