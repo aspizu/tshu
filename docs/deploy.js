@@ -1,6 +1,6 @@
 import { $ } from "bun";
 import * as path from "node:path";
-await $`uv run --with zensical zensical build`;
+await $`uv run --with mkdocs-material mkdocs build`;
 const files = (
   await Array.fromAsync($`find site -type f -name '*.html'`.lines())
 ).filter(Boolean);
